@@ -1,0 +1,11 @@
+{
+  "name": "streamServer",
+  "description": "Streaming ffmpeg to HTML5 canvas",
+  "author": "Gerald Kogler, Sergi Lario",
+  "dependencies": {
+	"connect": ">= 0.1",
+	"socket.io": ">= 0.1",
+	"serve-static": ">= 0.1"
+  },
+  "engine": "node >= 0.10.0"
+}
