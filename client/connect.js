@@ -30,7 +30,7 @@ Connect.prototype.initSocket = function() {
 		//console.log(data);
 		try {
 			// 1. method: draw on canvas
-			/*var canvas = document.getElementById('videostream');
+			var canvas = document.getElementById('videostream');
 			var context = canvas.getContext('2d');
 			var imageObj = new Image();
 			imageObj.src = "data:image/jpeg;base64,"+data;
@@ -38,9 +38,9 @@ Connect.prototype.initSocket = function() {
 				context.height = imageObj.height;
 				context.width = imageObj.width;
 				context.drawImage(imageObj,0,0,context.width,context.height);
-			}*/
+			}
 			// 2. method: draw as CSS background
-			$('#videostream').css('background', 'transparent url(data:image/jpeg;base64,'+data+') top left / 100% 100% no-repeat');
+			// $('#videostream').css('background', 'transparent url(data:image/jpeg;base64,'+data+') top left / 100% 100% no-repeat');
 		} catch(e){ }
 	});
 
